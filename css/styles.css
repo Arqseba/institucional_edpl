@@ -5,10 +5,63 @@ body {
     background-color: #DE1D22;
 }
 
-.navbar-brand {
-    margin-left: 2em;
+.logo{
+    background-color: #ededed;
+    padding: 1em;
+    
+    
+    padding-left: 3em;
+    box-shadow: 5px 5px 20px #000000;
+    box-sizing:content-box;
 }
 
+.edlp{
+position: flex;
+    margin-bottom: 6em;
+    margin-top: -1em;
+    
+}
+.menu{
+    background-color: #DE1D22;
+    color: #ededed;
+   
+    margin: -12em -1em 3em -3em;
+    
+    
+    padding-right: 3em;
+    
+    
+}
+.container{
+    margin-top: 2em;
+    }
+
+
+
+.container0{
+    padding: 3em 3em 0 3em;
+    }
+.container2{
+    
+    background-color: #000000; 
+    margin-bottom: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;  
+    
+}
+
+.rotulo{
+    
+    text-align: center; 
+    color: #ededed;
+    margin-top: -2em;
+}
+
+.card1{
+    background-color: #000000;
+    padding-top: .5em;
+    margin-top: 1em;
+}
 .icono {
     font-size: 30px;
     color: #ededed
@@ -29,12 +82,6 @@ body {
     font-size: 50px;
     color: #ededed;
 }
-
-.nav {
-    background-color: #DE1D22;
-    border-radius: 0.5em;
-}
-
 .card {
     background-color: #000000;
     color: #ededed;
@@ -49,35 +96,38 @@ body {
     margin-bottom: 1.5em;
 }
 
-.list-group {
-    background-color: #000000;
+div .list-group {
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 1.5em;
+    margin-top: 3em;
     
 }
-.container{
-    background-color: #000000;
-    
-}
-.carousel-inner {
-    text-align: center; 
-    color: #ededed;
-}
-
-div.row.row-cols-1.row-cols-md-2.g-4 {
-    padding: 3em;
-}
 
 
-div.row.row-cols-1.row-cols-md-2.g-4 > div:nth-child(1) > div {
+#tienda{
     background-color: #DE1D22;
+    margin-left: 3em;
+    padding: .5em;
+    width: 80%;
+    border-radius: 1em;
+    box-shadow: 5px 5px 10px #ededed;
+    z-index: 1;
 }
 
-div.row.row-cols-1.row-cols-md-2.g-4 > div:nth-child(2) > div {
-    background-color: #000000;
+.menu ul li a{
+    color: #ededed;
+    text-shadow: 3px 3px 30px #000000;
+    
 }
 
+.card3{
+z-index: 1;
+}
+.nav{
+    
+ margin-left: 10em;
+}
 
 
 
